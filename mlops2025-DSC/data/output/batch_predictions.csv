@@ -1,0 +1,12 @@
+Age,Income,EmploymentType,ResidenceType,CreditScore,LoanAmount,LoanTerm,PreviousDefault,Predicted Risk Category
+63.0,33849,Self-employed,Parental Home,782,354853,57,No,Medium Risk
+42.0,53606,Unemployed,Owned,766,229935,52,Yes,High Risk
+54.0,59022,Unemployed,Owned,478,202134,317,Yes,High Risk
+50.0,100847,Self-employed,Rented,699,400188,38,Yes,High Risk
+24.0,33595,Self-employed,Rented,768,6197,178,Yes,High Risk
+24.0,70510,Salaried,Rented,672,118480,125,Yes,High Risk
+44.0,21005,Self-employed,Rented,373,407964,311,Yes,High Risk
+27.0,85639,Salaried,Owned,711,454526,337,Yes,High Risk
+31.0,93610,Self-employed,Owned,520,156970,247,No,High Risk
+30.0,41337,Unemployed,Rented,779,189937,94,No,Medium Risk
+,780000,Salaried,Rented,540,500000,911,No,High Risk

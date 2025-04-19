@@ -1,0 +1,62 @@
+2025-04-19 14:48:34 - ERROR - Artifact not found: D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-04-19 14:48:34 - ERROR - Artifact not found: D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-04-19 14:48:34 - ERROR - Artifact not found: D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-04-19 14:52:20 - INFO - \U0001f680 Starting Data Processing Step
+2025-04-19 14:52:20 - INFO - \u2705 Loaded dataset: 500 rows, 9 columns
+2025-04-19 14:52:20 - INFO - Label encoder saved at D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-04-19 14:52:20 - INFO - \u2705 Target variable encoded and saved at D:\MLOPS\MLOPS_Practical\mlops2025-DSC\Artifacts\label_encoder.pkl
+2025-04-19 14:52:20 - INFO - Data processing pipeline created successfully.
+2025-04-19 14:52:20 - INFO - Pipeline saved at D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-04-19 14:52:20 - INFO - \u2705 Data pipeline created and saved at D:\MLOPS\MLOPS_Practical\mlops2025-DSC\Artifacts\data_processing_pipeline.pkl
+2025-04-19 14:52:20 - INFO - \u2705 Data split completed
+2025-04-19 14:52:20 - INFO - Model trained and saved at D:/MLOPS/MLOPS_Practical/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-04-19 14:52:20 - INFO - \u2705 Model trained and saved at D:\MLOPS\MLOPS_Practical\mlops2025-DSC\Artifacts\best_classifier.pkl
+2025-04-19 14:52:20 - INFO - Model loaded successfully.
+2025-04-19 14:52:20 - INFO - \u2705 Predictions completed
+2025-04-19 14:52:20 - INFO - Model loaded successfully.
+2025-04-19 14:52:20 - INFO - Model evaluation completed.
+2025-04-19 14:52:20 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-04-19 14:52:20 - INFO - Accuracy Score: 1.0
+2025-04-19 14:52:20 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-04-19 14:52:20 - INFO - \u2705 Model evaluation completed
+2025-04-19 14:52:20 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-04-19 14:52:20 - INFO - Accuracy Score: 1.0
+2025-04-19 14:52:20 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-04-19 14:52:40 - INFO - Predicted Risk Category: High Risk
+2025-04-19 14:53:43 - INFO - Predicted Risk Category: Medium Risk
+2025-04-19 14:55:24 - INFO - Batch Prediction Completed Successfully!
+2025-04-19 15:15:13 - INFO - Batch Prediction Completed Successfully!
+2025-04-19 15:33:46 - INFO - Predicted Risk Category: High Risk
+2025-04-19 15:34:02 - INFO - Predicted Risk Category: High Risk
+2025-04-19 15:34:05 - INFO - Predicted Risk Category: High Risk
+2025-04-19 15:34:17 - INFO - Predicted Risk Category: High Risk
+2025-04-19 15:34:25 - INFO - Predicted Risk Category: Low Risk
+2025-04-19 15:34:34 - INFO - Predicted Risk Category: Low Risk
+2025-04-19 15:34:44 - INFO - Predicted Risk Category: High Risk
+2025-04-19 15:34:51 - INFO - Predicted Risk Category: Medium Risk
